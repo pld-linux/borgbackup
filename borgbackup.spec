@@ -1,11 +1,11 @@
 Summary:	Deduplicating backup program with compression and authenticated encryption
 Name:		borgbackup
-Version:	1.4.0
-Release:	0.1
+Version:	1.4.3
+Release:	1
 License:	BSD 3 clause
 Group:		Networking/Utilities
 Source0:	https://github.com/borgbackup/borg/releases/download/%{version}/%{name}-%{version}.tar.gz
-# Source0-md5:	9f0510e05fdc70b5a44c5e7f1a4933b7
+# Source0-md5:	87a1f4e760c22a0a8bd9b1ea699fd337
 URL:		https://github.com/borgbackup/borg
 BuildRequires:	acl-devel >= 2.2.47
 BuildRequires:	lz4-devel >= 1.7.0
@@ -15,6 +15,7 @@ BuildRequires:	python3-devel >= 1:3.9
 BuildRequires:	python3-guzzle_sphinx_theme
 BuildRequires:	python3-modules >= 1:3.9
 BuildRequires:	python3-setuptools
+BuildRequires:	python3-sphinxcontrib-jquery
 BuildRequires:	rpm-pythonprov
 BuildRequires:	rpmbuild(macros) >= 1.720
 BuildRequires:	sphinx-pdg
