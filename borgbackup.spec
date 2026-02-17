@@ -1,7 +1,7 @@
 Summary:	Deduplicating backup program with compression and authenticated encryption
 Name:		borgbackup
 Version:	1.4.3
-Release:	1
+Release:	2
 License:	BSD 3 clause
 Group:		Networking/Utilities
 Source0:	https://github.com/borgbackup/borg/releases/download/%{version}/%{name}-%{version}.tar.gz
@@ -23,7 +23,6 @@ BuildRequires:	xxHash-devel >= 0.7.3
 BuildRequires:	zstd-devel >= 1.3.0
 Requires:	python3-modules >= 1:3.9
 Requires:	python3-setuptools
-BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
